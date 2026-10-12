@@ -1,0 +1,33 @@
+{
+  "mode": "multi",
+  "include_evidence": true,
+  "context_columns": [],
+  "instructions": "Classify which of Nielsen's five usability quality components the review talks about. Only mark a component if the review discusses it explicitly; ignore price, ads and pure bug reports.",
+  "labels": [
+    {
+      "name": "Learnability",
+      "definition": "How easy it is for new users to accomplish basic tasks the first time they use the app.",
+      "examples": "I figured it out in a minute."
+    },
+    {
+      "name": "Efficiency",
+      "definition": "How quickly users can perform tasks once they have learned the app (number of taps, shortcuts, speed of workflows).",
+      "examples": "Logging food takes too many taps."
+    },
+    {
+      "name": "Memorability",
+      "definition": "How easily users re-establish proficiency after not using the app, or after a redesign moved things.",
+      "examples": "After the update I can't find anything."
+    },
+    {
+      "name": "Errors",
+      "definition": "How many mistakes users make, how severe they are, and how easily they can recover from them.",
+      "examples": "Buttons too close, I keep tapping the wrong one."
+    },
+    {
+      "name": "Satisfaction",
+      "definition": "How pleasant the design is to use; aesthetic or emotional comments about the interface.",
+      "examples": "Calm, beautiful design."
+    }
+  ]
+}

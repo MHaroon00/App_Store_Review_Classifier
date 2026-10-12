@@ -1,0 +1,38 @@
+{
+  "mode": "multi",
+  "include_evidence": true,
+  "context_columns": [],
+  "instructions": "These are mobile app reviews. Mark every label that the review clearly talks about.",
+  "labels": [
+    {
+      "name": "Usability",
+      "definition": "Ease of use, learnability, navigation, interface layout, readability or confusing design.",
+      "examples": ""
+    },
+    {
+      "name": "Performance",
+      "definition": "Speed, loading time, crashes, freezes, bugs, battery drain or accuracy problems (e.g. GPS).",
+      "examples": ""
+    },
+    {
+      "name": "Feature Request",
+      "definition": "The user asks for a new feature or an improvement to an existing one.",
+      "examples": ""
+    },
+    {
+      "name": "Privacy & Security",
+      "definition": "Personal data, privacy, data sharing, account security or login/password problems.",
+      "examples": ""
+    },
+    {
+      "name": "Pricing & Ads",
+      "definition": "Cost, subscriptions, paywalls, billing, refunds or advertisements.",
+      "examples": ""
+    },
+    {
+      "name": "Customer Support",
+      "definition": "Contact with, or responses from, the developer's support team.",
+      "examples": ""
+    }
+  ]
+}
